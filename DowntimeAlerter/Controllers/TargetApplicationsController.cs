@@ -270,7 +270,7 @@ namespace DowntimeAlerter.Controllers
                 httpStatusCode != System.Net.HttpStatusCode.NoContent &&
                 httpStatusCode != System.Net.HttpStatusCode.Created)
             {
-                var notificationInformation = new NotificationInformation(user, "");
+                var notificationInformation = new NotificationInformation(user, $"The target application is down. The status code is {httpStatusCode}");
                 _notificationManager.SendAll(notificationInformation);
             }
         }
