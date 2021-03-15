@@ -17,7 +17,7 @@ I declared a model named as TargetApplication. I defined all CRUD processes for 
 
 I used HangFire Reccuring jobs to send GET request to a given Url at given interval.
 
-Hangfire Reccuring jobs work with Cron expression interval. So expecting Cron expression in interval area.
+Hangfire Reccuring jobs work with Cron expression interval. So UI expecting Cron expression as an interval.
 
 For notification i supported multiple notification types. For example if sms and email options are declared in Startup.cs, the application
 will send notification for these two channel. I developed my architecture in this way.
