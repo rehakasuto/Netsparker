@@ -27,3 +27,35 @@ For sending mail i used SendGrid library.
 If you have any question please let me now.
 
 Thank you!
+
+Configuration
+--------------
+The repository clone link given below;https://github.com/rehakasuto/Netsparker.git  
+Please open visual studio and click Clone a repository to clone your project to proper directory
+ 
+
+Then set your connection string from appsettings.json 
+ 
+
+Please run "update-database" command to proceed all migration folders.  
+
+Please check your new database from SQL Server Management studio 
+
+TargetApplication should be exists among Identity tables. 
+
+After complete package manager processes run the project 
+After project loaded successfully check your database again to prove Hangfire tables occurred or did not occur  
+
+In application you need to register a new user. Without this user you can not access pages except Hangfire reports 
+
+
+Kullanıcızı oluşturun daha sonra önünüze düşen ekranda activate user linkine tıklayıp kullanıcıyı aktive edin. Aktive edilmemiş kullanıcı ile giriş yapamazsınız. Bu AspNet Identity nin kendi tasarımından gelmektedir. This is an AspNet Identity feature. 
+ 
+
+
+After login you need to see Home Page.  
+ 
+
+If you want to change the directory of error logs, you need to configure nlog.config file.
+ 
+
