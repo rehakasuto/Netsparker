@@ -58,8 +58,7 @@ After project loaded successfully check your database again to prove Hangfire ta
 In application you need to register a new user. Without this user you can not access pages except Hangfire reports 
 ![image](https://user-images.githubusercontent.com/22036236/111178298-0ccc6600-85bc-11eb-99e8-897e37ae4883.png)
 
-
-Kullanıcızı oluşturun daha sonra önünüze düşen ekranda activate user linkine tıklayıp kullanıcıyı aktive edin. Aktive edilmemiş kullanıcı ile giriş yapamazsınız. Bu AspNet Identity nin kendi tasarımından gelmektedir. This is an AspNet Identity feature. 
+Create the user then click to activate user. You can not login with deactive users. This is an AspNet Identity feature. 
 ![image](https://user-images.githubusercontent.com/22036236/111178432-32596f80-85bc-11eb-90a8-ab88701e7366.png)
 
 
